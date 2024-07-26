@@ -21,12 +21,9 @@
 </head>
 
 <body>
-    <video autoplay muted loop class="video-background">
-        <source src="./video/Simple Abstract.mp4" type="video/mp4">
-    </video>
     <header>
-        <nav class="navbar navbar-expand-md bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-md bg-light">
+            <div class="container-fluid" id="nav-edit">
                 <a class="navbar-brand" href="#" id="logo">GC</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -47,13 +44,16 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
     <main class="mt-3">
+        <video autoplay muted loop class="video-background">
+            <source src="./video/Simple Abstract.mp4" type="video/mp4">
+        </video>
         <div class="text-center" id="div-title">
             <h1>Games-Center</h1>
             <h3>seleziona il gioco che fa per te!</h3>
