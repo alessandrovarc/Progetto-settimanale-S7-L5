@@ -1,0 +1,21 @@
+h1 {
+    font-family: "Playwrite DK Uloopet", cursive;
+}
+#logo {
+    font-family: "Dancing Script", cursive;
+}
+body {
+    background-color: rgb(42, 42, 42);
+}
+#div-title {
+    color: white;
+}
+
+
+.costum-image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+
+}
