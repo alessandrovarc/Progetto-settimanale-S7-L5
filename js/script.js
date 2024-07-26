@@ -22,7 +22,7 @@ const getGames = function () {
                 const newGamesCol = `
                 <div class="col d-flex">
 
-                    <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" id="card">
+                    <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded mt-5" id="card">
                         <img src=${games.imageUrl}
                         class="card-img-top costum-image" alt="img">
 
