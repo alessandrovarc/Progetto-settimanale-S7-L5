@@ -19,3 +19,21 @@ body {
 
 
 }
+#card {
+    position: relative;
+}
+.btn-edit {
+    padding: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        font-size: 14px;
+    }
+}

@@ -22,7 +22,7 @@ const getGames = function () {
                 const newGamesCol = `
                 <div class="col d-flex">
 
-                    <div class="card">
+                    <div class="card" id="card">
                         <img src=${games.imageUrl}
                         class="card-img-top costum-image" alt="img">
 
@@ -32,10 +32,17 @@ const getGames = function () {
                             <p class="card-text">${games.brand}</p>
                             <p class="card-text">${games.price}</p>
                             <button onclick="buy(event)" class="btn btn-primary w-100">Acquista</button>
+                            <a onclick="edit(${games._id})" href="edit.html" class="btn btn-success btn-round btn-edit" id="edit-btn">
+                            <span class="material-symbols-outlined">
+                            edit</span>
+                            </a>
                         </div>
                       </div>
                 </div>
                 `
+                
+                
+                    
                 const gamesRow = document.getElementById('game-row')
                 gamesRow.innerHTML = gamesRow.innerHTML + newGamesCol
             })
